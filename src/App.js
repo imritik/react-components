@@ -5,6 +5,7 @@ import "./App.css";
 // import Dropzone from "./dropzone/Dropzone";
 import Skeleton from "./Skeleton";
 import Drag from "./dragdrop";
+import Dashboard from "./Dashboard";
 
 function App() {
   return (
@@ -23,11 +24,15 @@ function App() {
               <Link to="/dropzone" className="navbar-item">
                 Drag N Drop
               </Link>
+              <Link to="/" className="navbar-item">
+                Dashboard
+              </Link>
             </div>
           </nav>
 
           <Route exact path="/skeleton" component={Skeleton} />
           <Route exact path="/dropzone" component={Drag} />
+          <Route exact path="/" component={Dashboard} />
         </div>
       </Router>
     </div>

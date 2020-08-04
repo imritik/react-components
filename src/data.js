@@ -63,7 +63,7 @@ const dummyData = [{
                 published: "3 hours ago"
             },
             {
-                id: "\_TkfQ9MaIgU",
+                id: "TkfQ9MaIgU",
                 image: "https://img.youtube.com/vi/_TkfQ9MaIgU/maxresdefault.jpg",
                 title: "How are small businesses going to survive the economic downturn of the COVID-19 era?",
                 views: "283 views",
